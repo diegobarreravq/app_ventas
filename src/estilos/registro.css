@@ -1,0 +1,8 @@
+.cnt_registro-ventas {
+  background-color: var(--fondo-app);
+  height: 100vh;
+}
+.venta-unitaria {
+  display: flex;
+  justify-content: space-between;
+}

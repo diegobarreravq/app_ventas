@@ -1,0 +1,149 @@
+:root {
+  --fondo-app: rgb(62, 62, 62);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.principal-cnt-vender {
+  background-color: var(--fondo-app);
+  height: 100vh;
+}
+.vender-formulario {
+  padding-top: 2rem;
+}
+.formulario-vender {
+  margin: 0 auto 2rem;
+  width: fit-content;
+}
+.formulario-input {
+  text-align: center;
+  font-size: 1.3rem;
+  width: 30rem;
+  height: 3rem;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  outline: none;
+  border: none;
+  box-shadow: 0px 0px 5px 1px rgb(121, 119, 119);
+}
+.formulario-cantidad {
+  text-align: center;
+  font-size: 1.3rem;
+  height: 3rem;
+  width: 7rem;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-right: 0.5rem;
+  outline: none;
+  border: none;
+  box-shadow: 0px 0px 5px 1px rgb(121, 119, 119);
+}
+.formulario-boton {
+  color: white;
+  background-color: rgb(8, 208, 8);
+  height: 3rem;
+  width: 6rem;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border: none;
+  outline: none;
+  box-shadow: 0px 0px 5px 1px rgb(100, 100, 100);
+}
+
+/* estilos para listado de productos desplegable */
+.listaProductos {
+  position: absolute;
+  left: 38rem;
+  background-color: #ffffff;
+  padding: 1rem;
+  width: 40rem;
+}
+.listaProductos_item:hover {
+  background-color: grey;
+  color: white;
+  cursor: pointer;
+}
+.desplegar {
+  visibility: visible;
+}
+hr {
+  height: 1px;
+  background-color: rgb(158, 158, 161);
+  border: none;
+}
+.agregados {
+  color: white;
+  text-align: center;
+  margin: 1rem 0 2rem;
+  font-size: 1.5rem;
+}
+.noAgregados {
+  display: none;
+}
+
+.contenedor-agregados {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  border: solid 1px white;
+  color: white;
+  margin: 1rem auto;
+  height: 3rem;
+  font-size: 1.3rem;
+  width: 70rem;
+  padding: 0.5rem;
+}
+.agregados-texto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40rem;
+}
+.divicion-venta {
+  background-color: #ffffff;
+  width: 70rem;
+  margin: 0 auto;
+}
+.agregados-cantidad {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10rem;
+}
+.contenedor-iconos {
+  background-color: transparent;
+  border: none;
+}
+.agregados-eliminar {
+  color: white;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.agregados-eliminar:hover {
+  color: red;
+}
+.infoTabla {
+  color: white;
+  display: flex;
+  width: 70rem;
+  margin: 0 auto;
+}
+.infoTabla > p {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.infoTabla-detalle {
+  margin-left: 18rem;
+}
+.infoTabla-cantidad {
+  margin-left: 29.5rem;
+}
+.noInfoTabla {
+  display: none;
+}
